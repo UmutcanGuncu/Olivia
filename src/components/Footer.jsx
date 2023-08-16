@@ -1,17 +1,21 @@
-import { useEffect, useState } from "react"
-import SwitchTheme from "./SwitchTheme";
+
+import { createContext, useContext } from "react"
+import useTheme from "../customHooks/useTheme"
+import { ThemeContext } from "../context/ThemeContext"
+
+
 
 export default function Footer(){
-  
+ const {theme, handleTheme} = useContext(ThemeContext)
     return(
         <>
     <div className="container my-0">
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
       <ul className="nav col-md-4 justify-content-start">
         <li className="nav-item"><span className="nav-link fs-20 mx-2 px-2 text-muted">Home</span></li>
-        <li clasclassNames="nav-item"><span className="nav-link fs-12 mx-2 px-2 text-muted ">About</span></li>
+        <li className="nav-item"><span className="nav-link fs-12 mx-2 px-2 text-muted ">About</span></li>
         <li className="nav-item"><span className="nav-link fs-12 mx-2 px-2 text-muted">Services</span></li>
-        <SwitchTheme></SwitchTheme>
+        <li className="nav-item"><a onClick={handleTheme}className="nav-link fs-12 mx-2 px-2 text-muted">Change Theme</a></li>
       </ul>
 
 

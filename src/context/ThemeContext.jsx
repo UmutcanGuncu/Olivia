@@ -1,20 +1,13 @@
-import { createContext, useEffect, useState } from "react";
-export const Context = createContext();
-const Provider = ({children}) => {
-  const[theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light");
-  useEffect(()=>{
-    localStorage.setItem("theme", theme);
-    const localTheme = localStorage.getItem("theme");
-    document.body.classList.toggle(localTheme)
-  },[theme])
-  const datas ={
-    theme,
-    setTheme
-  }
-    return (
-        <Context.Provider value={datas}>
-            {children}
-        </Context.Provider>
-    )
+import { createContext } from "react";
+import useTheme from "../customHooks/useTheme";
+
+ const ThemeContext = createContext();
+ function ThemeContextProvider({ children }) {
+  const [theme, handleTheme] = useTheme();
+  const data = {
+    theme: theme,
+    handleTheme: handleTheme,
+  };
+  return <ThemeContext.Provider value={data}>{children}</ThemeContext.Provider>;
 }
-export default Provider
+export { ThemeContext, ThemeContextProvider };

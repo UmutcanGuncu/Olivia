@@ -1,20 +1,21 @@
 export default function Contact() {
   return (
     <>
-      <div className="container">
-        <div className="card mt-4">
+      <div className="container" id="example">
+        <div className="card mt-4" id="example">
           <div className="card-header mx-0 px-0">
-            <h1 className="h4 text-center">Contact</h1>
+            <h1 className="h4 text-center text-black">Contact</h1>
           </div>
-          <div className="card-body">
+          <div className="card-body" id="example">
             <form>
               <div className="form row my-2">
                 <div className="col-sm-6">
                   <input
                     type="text"
-                    className="form-control"
+                    className="form-control "
                     name="firstName"
                     placeholder="First name"
+                    
                   />
                 </div>
                 <div className="col-sm-6">
@@ -57,7 +58,7 @@ export default function Contact() {
             </form>
             <div className="row my-2">
               <div className="col-sm-6">
-                <div class="map-responsive">
+                <div className="map-responsive">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97485.85005996618!2d29.0322895!3d40.221678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca1582d8d45695%3A0x61a00555fc973392!2sBursa!5e0!3m2!1str!2str!4v1692188234386!5m2!1str!2str"
                     width={600}

@@ -1,27 +1,18 @@
-import { useEffect, useState } from 'react'
+import { useContext } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import {Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import ThemeProvider from './context/ThemeContext';
 import Services from './components/Services';
+import { ThemeContext } from './context/ThemeContext';
 
 function App() {
-  const[theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light");
-  useEffect(()=>{
-    localStorage.setItem("theme", theme);
-    const localTheme = localStorage.getItem("theme");
-    document.body.classList.toggle(localTheme)
-  },[theme])
-  const datas ={
-    theme,
-    setTheme
-  }
+  const { theme } = useContext(ThemeContext)
   return (
     <>
-    <ThemeProvider>
-      <Navbar></Navbar>
+    <div id={theme}>
+    <Navbar></Navbar>
      
       <Routes>
         <Route path='/' element={<Home/>}></Route>
@@ -29,8 +20,9 @@ function App() {
         <Route path='/services' element={<Services/>}></Route>
       </Routes>
       <Footer></Footer>
-    </ThemeProvider>
+      </div>
     </>
+  
   )
 }
 
