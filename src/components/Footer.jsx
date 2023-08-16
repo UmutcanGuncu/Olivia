@@ -5,7 +5,7 @@ export default function Footer(){
   
     return(
         <>
-        <div className="container">
+    <div className="container my-0">
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 ">
       <ul className="nav col-md-4 justify-content-start">
         <li className="nav-item"><span className="nav-link fs-20 mx-2 px-2 text-muted">Home</span></li>
@@ -35,7 +35,8 @@ export default function Footer(){
 
       <p className="col-md-4 mb-0 text-body-secondary d-flex justify-content-end">COPYRIGHT @ 2020 | OLIVA GRACE</p>
     </footer>
-  </div>
+    </div>
+
         </>
     )
 }

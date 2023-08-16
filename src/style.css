@@ -5,6 +5,7 @@
 body{
     background-color: #fff;
     transition: 300ms all;
+    
 }
 body.dark{
     background-color: #222;
@@ -68,4 +69,5 @@ body.dark{
     width: 100%;
     height: auto;
   }
+  
   

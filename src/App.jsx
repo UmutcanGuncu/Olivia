@@ -5,6 +5,7 @@ import {Routes, Route} from 'react-router-dom';
 import Home from './components/Home';
 import Contact from './components/Contact';
 import ThemeProvider from './context/ThemeContext';
+import Services from './components/Services';
 
 function App() {
   const[theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light");
@@ -25,6 +26,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/services' element={<Services/>}></Route>
       </Routes>
       <Footer></Footer>
     </ThemeProvider>
