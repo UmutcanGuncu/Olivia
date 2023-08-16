@@ -1,0 +1,71 @@
+.primary-color {
+    background: #F2E9E4;
+
+}
+body{
+    background-color: #fff;
+    transition: 300ms all;
+}
+body.dark{
+    background-color: #222;
+    transition: 300ms all;
+    color: #fff;
+    
+}
+
+.tutturulmus-konum {
+
+    top: 40px;
+    right: 15px;
+    background: #F2E9E4;
+    left: 595px;
+    top: 2197px;
+    width: 412px;
+    height: 578px;
+    flex-shrink: 0;
+
+}
+
+:root {
+    font-family: Poppins;
+}
+
+
+.box {
+    z-index: 0;
+    position: absolute;
+    margin-left: 336px;
+    background-color: white;
+    width: 714px;
+    height: 504px;
+    flex-shrink: 0;
+    left: 0px;
+    top: 2400px;
+    align-items: center;
+
+}
+
+.box2 {
+    z-index: 0;
+    position: absolute;
+    margin-left: 1148px;
+    background-color: white;
+    width: 611px;
+    height: 828px;
+    flex-shrink: 0;
+    left: 0px;
+    top: 2300px;
+    align-items: center;
+
+}
+.position-relative {
+    position: relative;
+  }
+  .position-relative img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
