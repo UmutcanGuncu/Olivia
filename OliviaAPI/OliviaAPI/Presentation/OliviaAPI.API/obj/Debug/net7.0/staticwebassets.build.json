@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6LY8IUjnw97bDcRFO59pZISmTgh+xt3wdSmM0lqondM=",
+  "Source": "OliviaAPI.API",
+  "BasePath": "_content/OliviaAPI.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

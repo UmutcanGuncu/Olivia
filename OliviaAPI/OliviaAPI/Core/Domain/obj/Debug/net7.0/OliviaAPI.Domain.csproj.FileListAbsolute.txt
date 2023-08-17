@@ -1,0 +1,12 @@
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/bin/Debug/net7.0/OliviaAPI.Domain.deps.json
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/bin/Debug/net7.0/OliviaAPI.Domain.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/bin/Debug/net7.0/OliviaAPI.Domain.pdb
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.csproj.AssemblyReference.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.AssemblyInfoInputs.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.AssemblyInfo.cs
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.csproj.CoreCompileInputs.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/refint/OliviaAPI.Domain.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/OliviaAPI.Domain.pdb
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/Domain/obj/Debug/net7.0/ref/OliviaAPI.Domain.dll

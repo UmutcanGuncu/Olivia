@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{9A8C81D0-A72F-408B-BBA6-4C0A6F02B1E1}|https">
+  <MonoDevelop.Ide.ItemProperties.Presentation.OliviaAPI.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/OliviaAPI.API/Controllers/ProductController.cs">
+    <Files>
+      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ProductWriteRepository.cs" Line="8" Column="33" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/WriteRepository.cs" Line="1" Column="1" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/ServiceRegistration.cs" Line="16" Column="74" />
+      <File FileName="Presentation/OliviaAPI.API/Controllers/ProductController.cs" Line="50" Column="26" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OliviaAPI" expanded="True">
+            <Node name="Core" expanded="True">
+              <Node name="OliviaAPI.Domain">
+                <Node name="Entities" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Infastructure" expanded="True">
+              <Node name="OliviaAPI.Persistence">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Contexts" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="OliviaAPI.API">
+                <Node name="Controllers">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

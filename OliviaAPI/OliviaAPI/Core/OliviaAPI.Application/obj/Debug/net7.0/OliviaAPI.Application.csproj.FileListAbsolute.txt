@@ -1,0 +1,15 @@
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/bin/Debug/net7.0/OliviaAPI.Application.deps.json
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/bin/Debug/net7.0/OliviaAPI.Application.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/bin/Debug/net7.0/OliviaAPI.Application.pdb
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/bin/Debug/net7.0/OliviaAPI.Domain.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/bin/Debug/net7.0/OliviaAPI.Domain.pdb
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.csproj.AssemblyReference.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.AssemblyInfoInputs.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.AssemblyInfo.cs
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.csproj.CoreCompileInputs.cache
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.csproj.CopyComplete
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/refint/OliviaAPI.Application.dll
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/OliviaAPI.Application.pdb
+/Users/umutcanguncu/Desktop/OliviaGrace/OliviaAPI/OliviaAPI/Core/OliviaAPI.Application/obj/Debug/net7.0/ref/OliviaAPI.Application.dll
