@@ -11,6 +11,7 @@ namespace OliviaAPI.Persistence.Contexts
 
 		}
         public DbSet<Product> Products { get; set; }
+		public DbSet<Contact> Contacts { get; set; }
 	}
 }
 

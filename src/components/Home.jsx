@@ -11,7 +11,7 @@ export default function Home()
       </div>
       <br/>
       <div className="col-sm-6  primary-color d-flex justify-content-center align-items-center ">
-        <div className="text-center text-black">
+        <div className="text-center ">
           <h1>About Me</h1>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae natus quis autem quae sit maxime facilis
             ea, exercitationem animi suscipit.</p>
@@ -78,8 +78,8 @@ flexShrink: 0}}>
     <div className="container">
       <div className="row">
         <div className="col-sm-8 mx-3 px-2">
-          <h1 className="h2 my-4 text-black">Let's Work Together</h1>
-          <p className="text-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, esse architecto. Mollitia, unde modi.</p>
+          <h1 className="h2 my-4 ">Let's Work Together</h1>
+          <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, esse architecto. Mollitia, unde modi.</p>
           <button className="btn text-white  btn-lg">LETS CHAT</button>
         </div>
       </div>

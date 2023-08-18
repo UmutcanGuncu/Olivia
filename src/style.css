@@ -3,11 +3,11 @@
 
 }
 #dark .primary-color {
-    background: #d3d3d3;
+    background: #281A10;
 
 }
 #dark #example{
-    background-color: #d3d3d3;
+    background-color: #281A10;
 }
 #light{
     background-color: #fff;
@@ -56,7 +56,7 @@
     z-index: 0;
     position: absolute;
     margin-left: 336px;
-    background-color:#d3d3d3;
+    background-color:black;
     width: 714px;
     height: 504px;
     flex-shrink: 0;
@@ -68,26 +68,26 @@
 #light .box2 {
     z-index: 0;
     position: absolute;
-    margin-left: 1148px;
+    margin-left: 73rem;
     background-color: white;
     width: 611px;
     height: 828px;
     flex-shrink: 0;
     left: 0px;
-    top: 2300px;
+    top: 2180px;
     align-items: center;
 
 }
 #dark .box2 {
     z-index: 0;
     position: absolute;
-    margin-left: 1148px;
+    margin-left: 73rem;
     background-color: #d3d3d3;
-    width: 611px;
-    height: 828px;
+    width: 550px;
+    height: 800px;
     flex-shrink: 0;
     left: 0px;
-    top: 2300px;
+    top: 2180px;
     align-items: center;
 
 }

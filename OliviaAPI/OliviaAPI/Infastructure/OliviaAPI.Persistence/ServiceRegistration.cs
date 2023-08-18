@@ -11,9 +11,16 @@ namespace OliviaAPI.Persistence
 	{
 		public static void AddPersistenceService(this IServiceCollection services)
 		{
+			//Db Connection
 			services.AddDbContext<OliviaDbContext>(opt => opt.UseNpgsql(Configurations.ConnectionString));
+
+			//Product
 			services.AddScoped<IProductReadRepository, ProductReadRepository>();
 			services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+
+			//Contact
+			services.AddScoped<IContactReadRepository, ContactReadRepository>();
+			services.AddScoped<IContactWriteRepository, ContactWriteRepository>();
 		}
 	}
 }

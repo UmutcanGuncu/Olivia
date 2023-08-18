@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
+import useProduct from "../customHooks/useProduct";
 
 export default function Services() {
-  const [products, setProducts] = useState(false);
+  const [products, setProducts] = useProduct();
   useEffect(()=>{
     fetch("https://localhost:7281/api/Product")
     .then(res => {
@@ -22,8 +23,8 @@ export default function Services() {
           <input type="hidden" value={product.id}></input>
           <img className="card-img-top py-2 w-100" src={product.imageUrl} alt="Card image cap" />
           <div className="card-body">
-            <h5 className="card-title text-black">{product.title}</h5>
-            <p className="card-text text-black">
+            <h5 className="card-title ">{product.title}</h5>
+            <p className="card-text ">
               {product.description}
             </p>
             <a href="#" className="btn btn-primary">
