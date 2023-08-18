@@ -1,5 +1,3 @@
-
-
 export default function Contact() {
 function handleSubmit(event) {
     event.preventDefault();

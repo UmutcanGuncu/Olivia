@@ -6,43 +6,37 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Presentation.OliviaAPI.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Presentation/OliviaAPI.API/Controllers/ContactController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/Domain/Entities/Contact.cs">
     <Files>
       <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ProductWriteRepository.cs" />
       <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/WriteRepository.cs" />
-      <File FileName="Infastructure/OliviaAPI.Persistence/ServiceRegistration.cs" Line="14" Column="19" />
-      <File FileName="Presentation/OliviaAPI.API/Controllers/ProductController.cs" Line="50" Column="26" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/ServiceRegistration.cs" />
+      <File FileName="Presentation/OliviaAPI.API/Controllers/ProductController.cs" />
       <File FileName="Core/Domain/Entities/Contact.cs" Line="12" Column="37" />
-      <File FileName="Core/OliviaAPI.Application/Repositories/IContactReadRepository.cs" Line="6" Column="65" />
-      <File FileName="Core/OliviaAPI.Application/Repositories/IContactWriteRepository.cs" Line="6" Column="42" />
-      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactReadRepository.cs" Line="8" Column="29" />
-      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactWriteRepository.cs" Line="8" Column="91" />
+      <File FileName="Core/OliviaAPI.Application/Repositories/IContactReadRepository.cs" />
+      <File FileName="Core/OliviaAPI.Application/Repositories/IContactWriteRepository.cs" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactReadRepository.cs" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactWriteRepository.cs" />
       <File FileName="Presentation/OliviaAPI.API/Controllers/ContactController.cs" Line="21" Column="60" />
-      <File FileName="Infastructure/OliviaAPI.Persistence/Configurations.cs" Line="1" Column="1" />
+      <File FileName="Infastructure/OliviaAPI.Persistence/Configurations.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OliviaAPI" expanded="True">
             <Node name="Core" expanded="True">
-              <Node name="OliviaAPI.Application">
-                <Node name="Repositories" expanded="True" />
-              </Node>
               <Node name="OliviaAPI.Domain" expanded="True">
                 <Node name="Entities" expanded="True" />
               </Node>
             </Node>
             <Node name="Infastructure" expanded="True">
-              <Node name="OliviaAPI.Persistence">
+              <Node name="OliviaAPI.Persistence" expanded="True">
                 <Node name="Concrete" expanded="True" />
-                <Node name="Contexts" expanded="True" />
               </Node>
             </Node>
-            <Node name="Presentation">
-              <Node name="OliviaAPI.API">
-                <Node name="Controllers" expanded="True">
-                  <Node name="ContactController.cs" selected="True" />
-                </Node>
+            <Node name="Presentation" expanded="True">
+              <Node name="OliviaAPI.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
               </Node>
             </Node>
           </Node>

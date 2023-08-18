@@ -1,7 +1,7 @@
 export default function Home()
 {
     return ( <>
-  <div className="container-fluid my-2">
+  <div className="container-fluid my-5">
     <div className="row gx-0">
       <div className="col-sm-6 ">
         <div className="container pe-3">

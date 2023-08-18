@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-export default function Navbar(props) {
+export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-xxl bg-body-tertiary primary-color">
@@ -51,10 +51,10 @@ export default function Navbar(props) {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav d-flex ms-3 ps-4 justify-content-center">
-              <NavLink to="/" className="nav-link text-secondary fs-3 mx-5 px-5" href="#">
+              <NavLink to="/" className="nav-link text-secondary fs-3 ms-5 me-2 px-5">
                 Home
               </NavLink>
-              <a className="nav-link disabled fs-3 mx-4 px-4">About</a>
+              <NavLink to="/about" className="nav-link text-secondary fs-3 mx-4 px-4">About</NavLink>
               <h1 className="nav-link text-black ps-4 pe-5 h1 ">Olivia Grace</h1>
               <NavLink to="/services" className="nav-link text-secondary fs-3 mx-4 px-3 ">
                 Services

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function useProduct() {
   const [products, setProducts] = useState(false);
