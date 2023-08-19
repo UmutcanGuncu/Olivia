@@ -55,7 +55,7 @@ export default function Navbar() {
                 Home
               </NavLink>
               <NavLink to="/about" className="nav-link text-secondary fs-3 mx-4 px-4">About</NavLink>
-              <h1 className="nav-link text-black ps-4 pe-5 h1 ">Olivia Grace</h1>
+              <h1 className="nav-link head ps-4 pe-5 h1 ">Olivia Grace</h1>
               <NavLink to="/services" className="nav-link text-secondary fs-3 mx-4 px-3 ">
                 Services
               </NavLink>

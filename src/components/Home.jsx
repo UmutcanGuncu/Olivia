@@ -80,7 +80,7 @@ flexShrink: 0}}>
         <div className="col-sm-8 mx-3 px-2">
           <h1 className="h2 my-4 ">Let's Work Together</h1>
           <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, esse architecto. Mollitia, unde modi.</p>
-          <button className="btn text-white  btn-lg">LETS CHAT</button>
+          <button className="btn btn-dark btn-lg">LETS CHAT</button>
         </div>
       </div>
     </div>

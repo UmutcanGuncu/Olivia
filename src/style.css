@@ -102,4 +102,13 @@
     height: auto;
   }
   
-  
+  #dark #contact-box{
+    border-color: gray;
+    background-color: black;
+  }
+  #light .head{
+    color: black;
+  }
+  #dark .head{
+    color: white;
+  }

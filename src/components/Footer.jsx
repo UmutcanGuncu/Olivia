@@ -1,5 +1,7 @@
 import { createContext, useContext } from "react";
 import { ThemeContext } from "../context/ThemeContext";
+import { NavLink } from "react-router-dom";
+
 
 export default function Footer() {
   const { theme, handleTheme } = useContext(ThemeContext);
@@ -11,13 +13,13 @@ export default function Footer() {
             <div className="col-sm-4">
               <ul className="nav mx-5 px-5">
                 <li className="nav-item">
-                  <span className="nav-link fs-5 mx-1 px-1 text-muted">Home</span>
+                  <NavLink to="/" className="nav-link fs-5 mx-1 px-1 text-muted">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link fs-5 mx-1 px-1 text-muted ">About</span>
+                  <NavLink to="/about" className="nav-link fs-5 mx-1 px-1 text-muted ">About</NavLink>
                 </li>
                 <li className="nav-item">
-                  <span className="nav-link fs-5 mx-1 px-1 text-muted">Services</span>
+                  <NavLink to="/services" className="nav-link fs-5 mx-1 px-1 text-muted">Services</NavLink>
                 </li>
                 <li className="nav-item">
                   <a onClick={handleTheme} className="nav-link fs-5  mx-1 px-1 text-muted">
