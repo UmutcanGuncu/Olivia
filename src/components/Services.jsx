@@ -1,18 +1,9 @@
 import { useEffect, useState } from "react";
 import useProduct from "../customHooks/useProduct";
+import useGetProducts from "../customHooks/useGetProducts";
 
 export default function Services() {
-  const [products, setProducts] = useProduct();
-  useEffect(()=>{
-    fetch("https://localhost:7281/api/Product")
-    .then(res => {
-      if(res.ok && res.status === 200){
-        return res.json()
-      }
-    })
-    .then(data => setProducts(data))
-    .catch(err => console.log(err))
-  })
+  const products = useGetProducts()
   return (
     <>
      <div className="container mt-3 ps-4">

@@ -1,11 +1,5 @@
 ﻿<Properties StartupConfiguration="{9A8C81D0-A72F-408B-BBA6-4C0A6F02B1E1}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Presentation.OliviaAPI.API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workbench ActiveDocument="Core/Domain/Entities/Contact.cs">
     <Files>
       <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ProductWriteRepository.cs" />
@@ -17,16 +11,18 @@
       <File FileName="Core/OliviaAPI.Application/Repositories/IContactWriteRepository.cs" />
       <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactReadRepository.cs" />
       <File FileName="Infastructure/OliviaAPI.Persistence/Concrete/ContactWriteRepository.cs" />
-      <File FileName="Presentation/OliviaAPI.API/Controllers/ContactController.cs" Line="21" Column="60" />
+      <File FileName="Presentation/OliviaAPI.API/Controllers/ContactController.cs" />
       <File FileName="Infastructure/OliviaAPI.Persistence/Configurations.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OliviaAPI" expanded="True">
+          <Node name="OliviaAPI">
             <Node name="Core" expanded="True">
               <Node name="OliviaAPI.Domain" expanded="True">
-                <Node name="Entities" expanded="True" />
+                <Node name="Entities" expanded="True">
+                  <Node name="Contact.cs" selected="True" />
+                </Node>
               </Node>
             </Node>
             <Node name="Infastructure" expanded="True">
@@ -44,4 +40,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.OliviaAPI.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

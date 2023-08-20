@@ -1,4 +1,4 @@
-import { Button} from "react-bootstrap";
+import { Link } from "react-router-dom";
 export default function About() {
   return (
     <>
@@ -17,12 +17,12 @@ export default function About() {
             nihil dolorum earum ex quod consectetur saepe cupiditate? Eaque, omnis nemo.
           </p>
           <div className="d-grid gap-2 d-flex justify-content-center mb-4 mb-lg-3">
-            <a href="/" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">
+            <Link to="/" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">
               Home
-            </a>
-            <a href="/services" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">
+            </Link>
+            <Link to="/services" className="btn btn-primary btn-lg px-4 me-md-2 fw-bold">
               Products
-            </a>
+            </Link>
           </div>
         </div>
         <div className="col-lg-4 mx-1 mb-5  offset-lg-1 p-0 overflow-hidden shadow-lg">

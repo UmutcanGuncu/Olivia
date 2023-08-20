@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+import { Children, useContext } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import {Routes, Route} from 'react-router-dom';
@@ -7,12 +7,22 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import { ThemeContext } from './context/ThemeContext';
 import About from './components/About';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   const { theme } = useContext(ThemeContext)
   return (
     <>
+   
     <div id={theme}>
+    <Toaster  toastOptions={{
+    className: '',
+    style: {
+      border: '2px solid #713200',
+      padding: '20px',
+      
+    },
+  }}></Toaster>
     <Navbar></Navbar>
      
       <Routes>

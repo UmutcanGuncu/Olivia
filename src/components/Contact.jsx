@@ -1,29 +1,9 @@
+import toast, { Toaster } from "react-hot-toast";
+import contactPost from "../functions/contactPost";
+
 export default function Contact() {
-  function handleSubmit(event) {
-    event.preventDefault();
+  const handleSubmit = contactPost;
 
-    const name = event.target.elements.firstName.value;
-    const surname = event.target.elements.lastName.value;
-    const email = event.target.elements.email.value;
-    const title = event.target.elements.title.value;
-    const message = event.target.elements.message.value;
-
-    const data = {
-      name,
-      surname,
-      email,
-      title,
-      message,
-    };
-    fetch("https://localhost:7281/api/Contact", {
-      method: "POST",
-      body: JSON.stringify(data),
-      headers: { "Content-type": "application/json" },
-    })
-      .then((res) => res.json())
-      .then(alert("Başarıyla Gönderildi"))
-      .catch((err) => console.log(err));
-  }
   return (
     <>
       <div className="container" id="example">
@@ -40,6 +20,8 @@ export default function Contact() {
                     type="text"
                     className="form-control"
                     name="firstName"
+                    minLength={2}
+                    required
                     placeholder="First name"
                   />
                 </div>
@@ -50,6 +32,8 @@ export default function Contact() {
                     className="form-control"
                     name="lastName"
                     placeholder="Last name"
+                    minLength={2}
+                    required
                   />
                 </div>
               </div>
@@ -61,6 +45,7 @@ export default function Contact() {
                     className="form-control"
                     name="email"
                     placeholder="E Mail"
+                    required
                   />
                 </div>
               </div>
@@ -72,6 +57,7 @@ export default function Contact() {
                     className="form-control"
                     name="title"
                     placeholder="Title"
+                    required
                   />
                 </div>
               </div>
@@ -84,6 +70,8 @@ export default function Contact() {
                     name="message"
                     id="contact-box"
                     placeholder="Message"
+                    minLength={10}
+                    required
                   />
                 </div>
               </div>
@@ -102,7 +90,6 @@ export default function Contact() {
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97485.85005996618!2d29.0322895!3d40.221678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca1582d8d45695%3A0x61a00555fc973392!2sBursa!5e0!3m2!1str!2str!4v1692188234386!5m2!1str!2str"
                     width={600}
                     height={450}
-                    frameBorder={0}
                     style={{ border: 0 }}
                     allowFullScreen
                   ></iframe>
