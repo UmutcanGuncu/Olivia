@@ -13,16 +13,16 @@ export default function Footer() {
             <div className="col-sm-4">
               <ul className="nav mx-5 px-5">
                 <li className="nav-item">
-                  <NavLink to="/" className="nav-link fs-5 mx-1 px-1 text-muted">Home</NavLink>
+                  <NavLink to="/" className="nav-link fs-6 ms-4 me-1 px-1 text-muted">Home</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/about" className="nav-link fs-5 mx-1 px-1 text-muted ">About</NavLink>
+                  <NavLink to="/about" className="nav-link fs-6 mx-1 px-1 text-muted ">About</NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink to="/services" className="nav-link fs-5 mx-1 px-1 text-muted">Services</NavLink>
+                  <NavLink to="/services" className="nav-link fs-6 mx-1 px-1 text-muted">Services</NavLink>
                 </li>
                 <li className="nav-item">
-                  <a onClick={handleTheme} className="nav-link fs-5  mx-1 px-1 text-muted">
+                  <a onClick={handleTheme} className="nav-link fs-6  mx-1 px-1 text-muted">
                     Change Theme
                   </a>
                 </li>

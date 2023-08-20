@@ -60,34 +60,34 @@ export default function Home()
     </div>
   </div>
   
-  <div className="container-fluid primary-color" style={{width: 1920 + 'px',
-  height: 779 + 'px',
-  flexShrink: 0, marginTop: 265 + 'px'}}>
-    <div className="container d-flex justify-content-center align-items-center " style={{width: 809 + 'px',
-height: 958 + 'px',
-flexShrink: 0}}>
+  <div className="container-fluid primary-color mt-5">
+    <div className="container d-flex justify-content-center align-items-center " style={{
+  height: 50 + 'rem',
+  flexShrink: 0,}}>
 
-      <div className="container-fluid" style={{marginBottom: 300+ 'px'}}>
-        <img className="w-100 image " style={{zindex: 1}} src="img/Rectangle 14.png"/>
+      <div className="container-fluid d-flex align-item-center justify-content-center my-5" style={{width: 50 + 'rem',
+height: 55 + 'rem',
+flexShrink: 0}} >
+        <img className="w-100 img mb-4 pb-3" style={{zindex: 1}} src="img/Rectangle 14.png"/>
 
       </div>
 
     </div>
   </div>
-  <div className="box container d-flex justify-content-center align-items-center">
+  <div className="box container d-flex justify-content-center align-items-center ">
     <div className="container">
       <div className="row">
         <div className="col-sm-8 mx-3 px-2">
           <h1 className="h2 my-4 ">Let's Work Together</h1>
           <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, esse architecto. Mollitia, unde modi.</p>
-          <button className="btn btn-dark btn-lg">LETS CHAT</button>
+          <button className="btn btn-dark btn-lg">LET'S CHAT</button>
         </div>
       </div>
     </div>
   </div>
   <div className="box2">
     <div className="container d-flex justify-content-center align-items-center my-5">
-      <img src="img/Rectangle 12.png" className="w-90"/>
+      <img src="img/Rectangle 12.png" className="w-100"/>
     </div>
   </div>
   
@@ -124,25 +124,26 @@ flexShrink: 0}}>
       </div>
     </div>
   </div>
-  <div className="container-fluid primary-color " style={{width: 1920 + "px",
+  <div className="container-fluid primary-color " style={{width: 100 + "%" ,
   height: 339+ "px",
   flexShrink: 0}}>
     <div className="row">
-      <div className="col-sm-12 d-flex justify-content-center align-items-center my-5">
+      <div className="col-sm-12 text-center my-5">
         <h1>FOLLOW ME @OLIVAGRACE</h1>
       </div>
 
     </div>
-    <div className="row d-flex justify-content-center align-items-center my-2 ">
-      <div className="col-sm-2 ">
+    <div className="row d-flex justify-content-center align-items-center my-2 ms-5 ps-2 ">
+      <div className="col-sm-2 mx-2">
         <img src="img/Rectangle 20.png"/>
       </div>
-      <div className="col-sm-2">
+      <div className="col-sm-2 mx-2">
         <img src="img/Rectangle 16.png"/>
       </div>
-      <div className="col-sm-2"><img src="img/Rectangle 17.png"/></div>
-      <div className="col-sm-2"><img src="img/Rectangle 18.png"/></div>
-      <div className="col-sm-2"><img src="img/Rectangle 19.png"/></div>
+      <div className="col-sm-2 mx-2"><img src="img/Rectangle 17.png"/></div>
+      <div className="col-sm-2 mx-2"><img src="img/Rectangle 18.png"/></div>
+      <div className="col-sm-2 mx-2"><img src="img/Rectangle 19.png"/></div>
+      <div className="col-sm-2 mx-2"></div>
     </div>
   </div>
   <br></br>

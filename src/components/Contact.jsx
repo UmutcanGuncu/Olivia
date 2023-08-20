@@ -95,25 +95,25 @@ export default function Contact() {
                   ></iframe>
                 </div>
               </div>
-              <div className="col-sm-6 d-flex align-items-center">
+              <div className="col-sm-6 d-flex align-items-center justify-content-center">
                 <div className="info-wrap bg-muted text-muted w-100 p-lg-5 p-4">
-                  <h3 className="mb-4 mt-md-4">Contact us</h3>
+                  <h3 className="mb-4 mt-md-4 text-center">Contact Us</h3>
                   <div className="dbox w-100 d-flex align-items-start">
                     <div className="icon d-flex align-items-center justify-content-center">
                       <span className="fa fa-map-marker"></span>
                     </div>
-                    <div className="text pl-3">
+                    <div className="text pl-4">
                       <p>
                         <span>Address:</span>Zafer Mh. Ankara Yolu Cd. C Blok No:1 PK:16080
                         Osmangazi / BURSA
                       </p>
                     </div>
                   </div>
-                  <div className="dbox w-100 d-flex align-items-stretch">
+                  <div className="dbox w-100 d-flex align-items-center">
                     <div className="icon d-flex align-items-center justify-content-center">
                       <span className="fa fa-phone"></span>
                     </div>
-                    <div className="text pl-3">
+                    <div className="text pl-3 ">
                       <p>
                         <span>Phone:</span> <span>444 16 00</span>
                       </p>
@@ -126,7 +126,7 @@ export default function Contact() {
                     <div className="text pl-3">
                       <p>
                         <span>Email:</span>{" "}
-                        <a href="mailto:beyazmasa@bursa.bel.tr">beyazmasa@bursa.bel.tr</a>
+                        <a className="text-muted" href="mailto:beyazmasa@bursa.bel.tr">beyazmasa@bursa.bel.tr</a>
                       </p>
                     </div>
                   </div>
@@ -136,7 +136,7 @@ export default function Contact() {
                     </div>
                     <div className="text pl-3">
                       <p>
-                        <span>Website</span> <a href="#">www.bursa.bel.tr</a>
+                        <span>Website</span> <a className="text-muted" href="#">www.bursa.bel.tr</a>
                       </p>
                     </div>
                   </div>
